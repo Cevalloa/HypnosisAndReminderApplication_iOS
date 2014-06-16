@@ -16,8 +16,8 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "CCD17DA618C2DAFF007DD624"
                BuildableName = "HypnoNerd.app"
-               BlueprintName = "HypnoNerd"
-               ReferencedContainer = "container:HypnoNerd.xcodeproj">
+               BlueprintName = "HypnosisAndReminder"
+               ReferencedContainer = "container:HypnosisAndReminder.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -34,8 +34,8 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "CCD17DC118C2DAFF007DD624"
                BuildableName = "HypnoNerdTests.xctest"
-               BlueprintName = "HypnoNerdTests"
-               ReferencedContainer = "container:HypnoNerd.xcodeproj">
+               BlueprintName = "HypnosisAndReminderTests"
+               ReferencedContainer = "container:HypnosisAndReminder.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -44,8 +44,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "CCD17DA618C2DAFF007DD624"
             BuildableName = "HypnoNerd.app"
-            BlueprintName = "HypnoNerd"
-            ReferencedContainer = "container:HypnoNerd.xcodeproj">
+            BlueprintName = "HypnosisAndReminder"
+            ReferencedContainer = "container:HypnosisAndReminder.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -63,8 +63,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "CCD17DA618C2DAFF007DD624"
             BuildableName = "HypnoNerd.app"
-            BlueprintName = "HypnoNerd"
-            ReferencedContainer = "container:HypnoNerd.xcodeproj">
+            BlueprintName = "HypnosisAndReminder"
+            ReferencedContainer = "container:HypnosisAndReminder.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -81,8 +81,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "CCD17DA618C2DAFF007DD624"
             BuildableName = "HypnoNerd.app"
-            BlueprintName = "HypnoNerd"
-            ReferencedContainer = "container:HypnoNerd.xcodeproj">
+            BlueprintName = "HypnosisAndReminder"
+            ReferencedContainer = "container:HypnosisAndReminder.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

@@ -45,20 +45,20 @@
 		CC54CB0818C54DFE0097D4DC /* BNRReminderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRReminderViewController.h; sourceTree = "<group>"; };
 		CC54CB0918C54DFE0097D4DC /* BNRReminderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRReminderViewController.m; sourceTree = "<group>"; };
 		CC54CB0B18C553E30097D4DC /* BNRReminderViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BNRReminderViewController.xib; sourceTree = "<group>"; };
-		CCD17DA718C2DAFF007DD624 /* HypnoNerd.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HypnoNerd.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCD17DA718C2DAFF007DD624 /* HypnosisAndReminder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HypnosisAndReminder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCD17DAA18C2DAFF007DD624 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		CCD17DAC18C2DAFF007DD624 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		CCD17DAE18C2DAFF007DD624 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		CCD17DB218C2DAFF007DD624 /* HypnoNerd-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HypnoNerd-Info.plist"; sourceTree = "<group>"; };
+		CCD17DB218C2DAFF007DD624 /* HypnosisAndReminder-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HypnosisAndReminder-Info.plist"; sourceTree = "<group>"; };
 		CCD17DB418C2DAFF007DD624 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CCD17DB618C2DAFF007DD624 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		CCD17DB818C2DAFF007DD624 /* HypnoNerd-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HypnoNerd-Prefix.pch"; sourceTree = "<group>"; };
+		CCD17DB818C2DAFF007DD624 /* HypnosisAndReminder-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HypnosisAndReminder-Prefix.pch"; sourceTree = "<group>"; };
 		CCD17DB918C2DAFF007DD624 /* BNRAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BNRAppDelegate.h; sourceTree = "<group>"; };
 		CCD17DBA18C2DAFF007DD624 /* BNRAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BNRAppDelegate.m; sourceTree = "<group>"; };
 		CCD17DBC18C2DAFF007DD624 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		CCD17DC218C2DAFF007DD624 /* HypnoNerdTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HypnoNerdTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCD17DC218C2DAFF007DD624 /* HypnosisAndReminderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HypnosisAndReminderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCD17DC318C2DAFF007DD624 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		CCD17DCB18C2DAFF007DD624 /* HypnoNerdTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HypnoNerdTests-Info.plist"; sourceTree = "<group>"; };
+		CCD17DCB18C2DAFF007DD624 /* HypnosisAndReminderTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HypnosisAndReminderTests-Info.plist"; sourceTree = "<group>"; };
 		CCD17DCD18C2DAFF007DD624 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CCD17DCF18C2DAFF007DD624 /* HypnoNerdTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HypnoNerdTests.m; sourceTree = "<group>"; };
 		CCD17DD918C2DB15007DD624 /* BNRHypnosisView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRHypnosisView.h; sourceTree = "<group>"; };
@@ -111,8 +111,8 @@
 		CCD17DA818C2DAFF007DD624 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CCD17DA718C2DAFF007DD624 /* HypnoNerd.app */,
-				CCD17DC218C2DAFF007DD624 /* HypnoNerdTests.xctest */,
+				CCD17DA718C2DAFF007DD624 /* HypnosisAndReminder.app */,
+				CCD17DC218C2DAFF007DD624 /* HypnosisAndReminderTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -148,10 +148,10 @@
 		CCD17DB118C2DAFF007DD624 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				CCD17DB218C2DAFF007DD624 /* HypnoNerd-Info.plist */,
+				CCD17DB218C2DAFF007DD624 /* HypnosisAndReminder-Info.plist */,
 				CCD17DB318C2DAFF007DD624 /* InfoPlist.strings */,
 				CCD17DB618C2DAFF007DD624 /* main.m */,
-				CCD17DB818C2DAFF007DD624 /* HypnoNerd-Prefix.pch */,
+				CCD17DB818C2DAFF007DD624 /* HypnosisAndReminder-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -168,7 +168,7 @@
 		CCD17DCA18C2DAFF007DD624 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				CCD17DCB18C2DAFF007DD624 /* HypnoNerdTests-Info.plist */,
+				CCD17DCB18C2DAFF007DD624 /* HypnosisAndReminderTests-Info.plist */,
 				CCD17DCC18C2DAFF007DD624 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
@@ -177,9 +177,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		CCD17DA618C2DAFF007DD624 /* HypnoNerd */ = {
+		CCD17DA618C2DAFF007DD624 /* HypnosisAndReminder */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CCD17DD318C2DAFF007DD624 /* Build configuration list for PBXNativeTarget "HypnoNerd" */;
+			buildConfigurationList = CCD17DD318C2DAFF007DD624 /* Build configuration list for PBXNativeTarget "HypnosisAndReminder" */;
 			buildPhases = (
 				CCD17DA318C2DAFF007DD624 /* Sources */,
 				CCD17DA418C2DAFF007DD624 /* Frameworks */,
@@ -189,14 +189,14 @@
 			);
 			dependencies = (
 			);
-			name = HypnoNerd;
+			name = HypnosisAndReminder;
 			productName = HypnoNerd;
-			productReference = CCD17DA718C2DAFF007DD624 /* HypnoNerd.app */;
+			productReference = CCD17DA718C2DAFF007DD624 /* HypnosisAndReminder.app */;
 			productType = "com.apple.product-type.application";
 		};
-		CCD17DC118C2DAFF007DD624 /* HypnoNerdTests */ = {
+		CCD17DC118C2DAFF007DD624 /* HypnosisAndReminderTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CCD17DD618C2DAFF007DD624 /* Build configuration list for PBXNativeTarget "HypnoNerdTests" */;
+			buildConfigurationList = CCD17DD618C2DAFF007DD624 /* Build configuration list for PBXNativeTarget "HypnosisAndReminderTests" */;
 			buildPhases = (
 				CCD17DBE18C2DAFF007DD624 /* Sources */,
 				CCD17DBF18C2DAFF007DD624 /* Frameworks */,
@@ -207,9 +207,9 @@
 			dependencies = (
 				CCD17DC818C2DAFF007DD624 /* PBXTargetDependency */,
 			);
-			name = HypnoNerdTests;
+			name = HypnosisAndReminderTests;
 			productName = HypnoNerdTests;
-			productReference = CCD17DC218C2DAFF007DD624 /* HypnoNerdTests.xctest */;
+			productReference = CCD17DC218C2DAFF007DD624 /* HypnosisAndReminderTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -227,7 +227,7 @@
 					};
 				};
 			};
-			buildConfigurationList = CCD17DA218C2DAFF007DD624 /* Build configuration list for PBXProject "HypnoNerd" */;
+			buildConfigurationList = CCD17DA218C2DAFF007DD624 /* Build configuration list for PBXProject "HypnosisAndReminder" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -239,8 +239,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CCD17DA618C2DAFF007DD624 /* HypnoNerd */,
-				CCD17DC118C2DAFF007DD624 /* HypnoNerdTests */,
+				CCD17DA618C2DAFF007DD624 /* HypnosisAndReminder */,
+				CCD17DC118C2DAFF007DD624 /* HypnosisAndReminderTests */,
 			);
 		};
 /* End PBXProject section */
@@ -296,7 +296,7 @@
 /* Begin PBXTargetDependency section */
 		CCD17DC818C2DAFF007DD624 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = CCD17DA618C2DAFF007DD624 /* HypnoNerd */;
+			target = CCD17DA618C2DAFF007DD624 /* HypnosisAndReminder */;
 			targetProxy = CCD17DC718C2DAFF007DD624 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -399,9 +399,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "HypnoNerd/HypnoNerd-Prefix.pch";
-				INFOPLIST_FILE = "HypnoNerd/HypnoNerd-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "HypnoNerd/HypnosisAndReminder-Prefix.pch";
+				INFOPLIST_FILE = "HypnoNerd/HypnosisAndReminder-Info.plist";
+				PRODUCT_NAME = HypnosisAndReminder;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -412,9 +412,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "HypnoNerd/HypnoNerd-Prefix.pch";
-				INFOPLIST_FILE = "HypnoNerd/HypnoNerd-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "HypnoNerd/HypnosisAndReminder-Prefix.pch";
+				INFOPLIST_FILE = "HypnoNerd/HypnosisAndReminder-Info.plist";
+				PRODUCT_NAME = HypnosisAndReminder;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -435,8 +435,8 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "HypnoNerdTests/HypnoNerdTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "HypnoNerdTests/HypnosisAndReminderTests-Info.plist";
+				PRODUCT_NAME = HypnosisAndReminderTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -454,8 +454,8 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HypnoNerd/HypnoNerd-Prefix.pch";
-				INFOPLIST_FILE = "HypnoNerdTests/HypnoNerdTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "HypnoNerdTests/HypnosisAndReminderTests-Info.plist";
+				PRODUCT_NAME = HypnosisAndReminderTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -464,7 +464,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CCD17DA218C2DAFF007DD624 /* Build configuration list for PBXProject "HypnoNerd" */ = {
+		CCD17DA218C2DAFF007DD624 /* Build configuration list for PBXProject "HypnosisAndReminder" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CCD17DD118C2DAFF007DD624 /* Debug */,
@@ -473,7 +473,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CCD17DD318C2DAFF007DD624 /* Build configuration list for PBXNativeTarget "HypnoNerd" */ = {
+		CCD17DD318C2DAFF007DD624 /* Build configuration list for PBXNativeTarget "HypnosisAndReminder" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CCD17DD418C2DAFF007DD624 /* Debug */,
@@ -482,7 +482,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CCD17DD618C2DAFF007DD624 /* Build configuration list for PBXNativeTarget "HypnoNerdTests" */ = {
+		CCD17DD618C2DAFF007DD624 /* Build configuration list for PBXNativeTarget "HypnosisAndReminderTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CCD17DD718C2DAFF007DD624 /* Debug */,
