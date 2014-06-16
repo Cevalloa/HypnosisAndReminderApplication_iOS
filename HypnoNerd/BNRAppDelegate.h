@@ -2,9 +2,8 @@
 //  BNRAppDelegate.h
 //  HypnoNerd
 //
-//  Created by Alex Cevallos on 3/1/14.
-//  Copyright (c) 2014 Big Nerd Ranch. All rights reserved.
-//
+//  Created by Alex Cevallos on 3/7/14.
+
 
 #import <UIKit/UIKit.h>
 

@@ -2,11 +2,12 @@
 //  BNRAppDelegate.m
 //  HypnoNerd
 //
-//  Created by Alex Cevallos on 3/1/14.
-//  Copyright (c) 2014 Big Nerd Ranch. All rights reserved.
-//
+//  Created by Alex Cevallos on 3/7/14.
+
 
 #import "BNRAppDelegate.h"
+#import "BNRHypnosisViewController.h"
+#import "BNRReminderViewController.h"
 
 @implementation BNRAppDelegate
 
@@ -14,6 +15,20 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
+    BNRHypnosisViewController *hvc = [[BNRHypnosisViewController alloc] init];
+    
+    //this will generate a warning, ignore it for now
+    NSBundle *appBundle = [NSBundle mainBundle];
+    
+    //look in the appbundle for the file BNReminderViewController.xib
+    BNRReminderViewController *rvc = [[BNRReminderViewController alloc] initWithNibName:@"BNRReminderViewController" bundle:appBundle];
+    
+    UITabBarController *tabBarController = [[UITabBarController alloc] init];
+    tabBarController.viewControllers = @[hvc, rvc];
+    
+    self.window.rootViewController = tabBarController;
+    //self.window.rootViewController = hvc;
+    
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;
